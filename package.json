@@ -1,0 +1,16 @@
+{
+  "name": "movie_app",
+  "version": "1.0.0",
+  "description": "Searches for movies through an api ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vanessa Ating",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "request": "^2.81.0"
+  }
+}
