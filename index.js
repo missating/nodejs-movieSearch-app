@@ -21,7 +21,7 @@ app.get("/results", function(req, res) {
             if (movie.data == undefined) {
                 res.render('results', { movie: null, error: 'Error, please try again' });
             } else {
-                var movieText = `The movie is titled, ${movie.data.name}. ${movie.data.plot} It has a ${movie.data.rating} rating!`;
+                var movieText = `The movie is titled, ${movie.data.name}. ${movie.data.plot} It has a ${movie.data.rating} rating! - ${movie.data.year}`;
                 res.render('results', { movie: movieText, error: null });
             }
 
